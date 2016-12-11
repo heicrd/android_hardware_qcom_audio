@@ -1125,11 +1125,13 @@ static void stop_compressed_output_l(struct stream_out *out)
 
 bool is_offload_usecase(audio_usecase_t uc_id)
 {
+/*
     unsigned int i;
     for (i = 0; i < sizeof(offload_usecases)/sizeof(offload_usecases[0]); i++) {
         if (uc_id == offload_usecases[i])
             return true;
     }
+*/
     return false;
 }
 
